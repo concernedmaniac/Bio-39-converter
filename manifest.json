@@ -1,0 +1,15 @@
+{
+  "name": "BIP-39 컨버터",
+  "short_name": "BIP39",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#333333",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
