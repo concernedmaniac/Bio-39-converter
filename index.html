@@ -87,20 +87,20 @@
     <section>
         <label>숫자 입력 (1-2048)</label>
         <div class="input-group">
-            <input type="text" id="numInput" placeholder="예: 1 10 2048">
-            <button class="btn-reset" onclick="resetField('numInput', 'numResult')">초기화</button>
+            <input type="text" id="numInput" placeholder="">
+            <button class="btn-reset" onclick="resetField('numInput', 'numResult')">reset</button>
         </div>
-        <button class="btn-convert" onclick="convertNumbers()">단어로 변환</button>
+        <button class="btn-convert" onclick="convertNumbers()">to words</button>
         <div class="result-display" id="numResult"></div>
     </section>
 
     <section>
         <label>단어 입력</label>
         <div class="input-group">
-            <input type="text" id="wordInput" placeholder="예: abandon zoo">
-            <button class="btn-reset" onclick="resetField('wordInput', 'wordResult')">초기화</button>
+            <input type="text" id="wordInput" placeholder="">
+            <button class="btn-reset" onclick="resetField('wordInput', 'wordResult')">reset</button>
         </div>
-        <button class="btn-convert" onclick="convertWords()">숫자로 변환</button>
+        <button class="btn-convert" onclick="convertWords()">to numbers</button>
         <div class="result-display" id="wordResult"></div>
     </section>
 </div>
